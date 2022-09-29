@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    padding: 30px 60px;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header .navigation {
+    position: absolute;
+    right: 60px;
+    top: 15px;
+}
+
+header .navigation ul {
+    display: flex;
+}
+
+header .navigation li {
+    margin: 0 23.5px;
+}
+
+header .navigation li a {
+    color: black;
+    font-weight: bold;
+}
+
+main .container {
+    width: 502px;
+    margin: 200px auto;
+}
+
+.container .total {
+    position: relative;
+}
+
+.container .items {
+    margin-top: 20px;
+}
+
+.container .items .item {
+    position: relative;
+    width: 100%;
+    position: relative;
+    background-color: rgba(217, 217, 217, 1);
+    min-height: 89px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 51px;
+    padding-right: 20px;
+}
+
+.items .item .buttons {
+    display: flex;
+    flex-direction: row;
+    background: none;
+}
+
+.items .item .buttons button {
+    width: 45px;
+    height: 45px;
+    margin: 0 15px;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.items .item .buttons .edit {
+    background-color: black;
+}
+
+.items .item .buttons .delete {
+    background: #FF0000;
+}
