@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo Create</title>
     <link rel="stylesheet"  type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    
 </head>
 <body>
     
@@ -27,13 +29,20 @@
 
     <main>
         <div class="container">
+            <div class="alert-container-2">
+                    <div class="alert-items-2">
+                        <p>Internal Server Error</p>
+                        <a href=""><i class="material-symbols-outlined">cancel</i></a>
+                    </div>
+            </div>
+
             <div class="todotitle">Title of your Todo</div>
             <div class="items">
                 <div class="item">
-                    <input type="text" name="title" placeholder="Visiting My Family" />
+                    <input type="text" name="title" placeholder="Enter Title" />
                 </div>
                 <div class="btn">
-                    <button name="sendbtn">Update</button>
+                    <button name="sendbtn">Submit</button>
                 </div>
             </div>
         </div>

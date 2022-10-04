@@ -55,14 +55,75 @@ main{
     margin: 206px auto;
 }
 
+main .container .alert-container {
+    position: absolute;
+    background-color: #00FFB2;
+    height: 72px;
+    width: 336px;
+    border-radius: 10px;
+    top: 90px;
+    left: 500px;
+}
+
+main .container .alert-container-2 {
+    position: absolute;
+    background-color: #FF0000;
+    height: 72px;
+    width: 336px;
+    border-radius: 10px;
+    top: 90px;
+    left: 500px;
+}
+
+
+main .container .alert-container .alert-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 40px;
+}
+
+main .container .alert-container .alert-items p{
+    color: white;
+    font-size: 14px;
+}
+
+main .container .alert-container .alert-items i{
+    color: white;
+    font-size: 30px;
+}
+
+
+main .container .alert-container-2 .alert-items-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 40px;
+}
+
+main .container .alert-container-2 .alert-items-2 p{
+    color: white;
+    font-size: 14px;
+}
+
+main .container .alert-container-2 .alert-items-2 i{
+    color: white;
+    font-size: 30px;
+}
+
 main .todotitle{
-    position: relative;
-    margin-left: 46px;
+    position: absolute;
+    left: 501px;
+    top: 307px;
 }
 
 
 main .items{
-    margin-top: 22px;
+    position: absolute;
+    top: 347px;
+    left: 400px;
 }
 
 main .items .item{
@@ -82,8 +143,9 @@ main .items .item input{
  main .container .items .item input::placeholder {
     position: absolute; 
     color: black;
-    margin-left: 51px;
+    margin-left: 41px;
     margin-right: 326px;
+    margin-top: 5px;
  }
 
  main .container .items .btn button{
@@ -94,5 +156,5 @@ main .items .item input{
      background-color: black;
      color: white;
      margin-left: 0px;
+}
 
- }
